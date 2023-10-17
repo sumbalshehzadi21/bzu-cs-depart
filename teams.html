@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>CS Department Website</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="code/vendor/aos/aos.css" rel="stylesheet">
+    <link href="code/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="code/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="code/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="code/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="code/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="code/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <style>
+        #header {
+            background-color: #000000cc;
+        }
+
+        #faculty img {
+            display: block;
+            margin: auto;
+            width: 138px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-lg-between">
+
+            <h1 class="logo me-auto me-lg-0"><a href="index.html">CS Depart</a></h1>
+
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto" href="./index.html">Home</a></li>
+                    <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
+                    <li><a class="nav-link scrollto " href="./program.html">Programs</a></li>
+                    <li><a class="nav-link scrollto " href="./event.html">Events</a></li>
+                    <li><a class="nav-link scrollto active" href="#faculty">Faculty</a></li>
+                    <li class="dropdown"><a href="#"><span>Students'Portal</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="./assets/Datesheet.pdf">Time Tables </a></li>
+                            <li><a href="./assets/Fall 2023 Timetable.pdf">Exams/ DateSheets</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+            <a href="#about" class="get-started-btn scrollto" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Us</a>
+
+        </div>
+    </header><!-- End Header -->
+
+
+<!-- Contact Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Are you BZU Student</label>
+            </div>
+            
+            <div class="form-floating">
+              <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                
+                <option selected>---Select one---</option>
+                <option value="1">Faculty Member</option>
+                <option value="2">Student</option>
+                <option value="3">Researcher</option>
+              </select>
+  
+            </div>
+  
+            <div class="form-floating my-4">
+              <p>Elaborate your concern</p>
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2"></label>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button">Submit</button>
+              
+            </div>
+           
+          </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="faculty" class="team">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Faculty</h2>
+                <p>CS Faculty Members</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-img">
+                            <img src="assets/img/Dr.Minhaj.jpg" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="member-info">
+                            <h4>Dr.Minhaj Ahmad Khan</h4>
+                            <span>Chairman</span>
+                            <p>Ph.D.(UVSQ, France)
+                                HEC Approved Supervisor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="assets/img/Dr.Humaira.jpg" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="member-info">
+                            <h4>Dr.Humaira</h4>
+                            <span>Professor</span>
+                            <p>Ph.D.(UK)
+                                HEC Approved Supervisor</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member-img">
+                            <img src="assets/img/Dr.Aamir.jpg" class="img-fluid" alt="">
+
+                        </div>
+                        <div class="member-info">
+                            <h4>Dr. Aamir Raza</h4>
+                            <span>Associate Professor</span>
+                            <p>Ph.D.(China) M.Sc.(CS)[Pakistan, Sweden]
+                                DSA</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member-img">
+                            <img src="assets/img/Dr.Qaisar.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h4>Dr.Qaisar</h4>
+                            <span>Professor</span>
+                            <p>Assistant Professor Ph.D.(China)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member-img">
+                            <img src="assets/img/Dr.Israr.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h4>Dr.Israr</h4>
+                            <span>Professor</span>
+                            <p>Assistant Professor Ph.D.(PK)</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member-img">
+                            <img src="assets/img/Dr.Sana.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h4>Dr. M Sanaullah</h4>
+                            <span>Professor</span>
+                            <p>Assistant Professor Ph.D.(Italy)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member-img">
+                            <img src="assets/img/Dr.Asif.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h4>Dr. M. Asif Raza</h4>
+                            <span>Professor</span>
+                            <p>Assistant Professor Ph.D.(South Korea)</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                    <div class="member" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member-img">
+                            <img src="assets/img/Dr.Nabeel.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h4>r.Nabeel</h4>
+                            <span>Professor</span>
+                            <p>Assistant Professor Ph.D.(UK)</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section><!-- End Team Section -->
+
+     <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>CS Depart<span>.</span></h3>
+              <p>
+                Bosan Rd BZU <br>
+               Multan<br><br>
+                <strong>Phone:</strong> +92 111 2333 444<br>
+                <strong>Email:</strong> abc@gmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="./index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./program.html">Programs</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./event.html">Events</a></li>
+             
+              
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="./admission.html">Admission open 2023</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./apart.html">About Depart</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="./teams.html">Faculty</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Department of Computer Science</h4>
+            <p>Bahauddin Zakariya University, Multan,</p>
+            <form action="" method="post">
+              <!-- <input type="email" name="email"><input type="submit" value="Subscribe"> -->
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>CS Depart</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">Sumbal Shehzadi</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="code/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="code/vendor/aos/aos.js"></script>
+    <script src="code/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="code/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="code/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="code/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="code/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

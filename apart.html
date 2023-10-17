@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Depart info</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .btn-outline-info a {
+            color: #0dcaf0;
+            text-decoration: none;
+        }
+        
+        .btn-outline-info a:hover {
+            background-color: #0dcaf0;
+            color: black;
+            text-decoration: none;
+            padding: 9px;
+        }
+
+        .btn-outline-light a {
+            color: white;
+            text-decoration: none;
+            /* border: 1px solid yellow; */
+        }
+
+        .btn-outline-light a:hover {
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            padding: 9px;
+        }
+       
+        img {
+            width: 100%;
+        }
+        #header {
+            background-color: #000000cc;
+        }
+        .bg-dark{
+            margin-top: 3.6%;
+        }
+    </style>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-lg-between">
+
+            <h1 class="logo me-auto me-lg-0"><a href="index.html">CS Depart</a></h1>
+
+
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a class="nav-link scrollto" href="./index.html">Home</a></li>
+                    <!-- <li><a class="nav-link scrollto" href="#about">About</a></li> -->
+                    <li><a class="nav-link scrollto" href="./program.html">Programs</a></li>
+                    <li><a class="nav-link scrollto" href="./event.html">Events</a></li>
+                    <li><a class="nav-link scrollto" href="./teams.html">Faculty</a></li>
+                    <li class="dropdown"><a href="#"><span>Students'Portal</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul>
+                            <li><a href="./assets/Fall 2023 Timetable.pdf">Time Tables </a></li>
+                            <li><a href="./assets/Datesheet.pdf">Exams/ DateSheets</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+            <a href="#about" class="get-started-btn scrollto" data-bs-toggle="modal" data-bs-target="#contactModal">Contact Us</a>
+
+        </div>
+    </header><!-- End Header -->
+    <br>
+
+ <!-- Contact Modal -->
+ <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Contact Us</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Are you BZU Student</label>
+            </div>
+
+            <div class="form-floating">
+              <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+
+                <option selected>---Select one---</option>
+                <option value="1">Faculty Member</option>
+                <option value="2">Student</option>
+                <option value="3">Researcher</option>
+              </select>
+
+            </div>
+
+            <div class="form-floating my-4">
+              <p>Elaborate your concern</p>
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                style="height: 100px"></textarea>
+              <label for="floatingTextarea2"></label>
+            </div>
+            <div class="d-grid gap-2">
+              <button class="btn btn-primary" type="button">Submit</button>
+
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+    <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5">
+            <h1 class="display-5 fw-bold text-white">What Makes Us Stand Out</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">"Our students enjoy unlimited access to cutting-edge computer labs, featuring
+                    top-tier hardware and software. These fully air-conditioned labs provide an exceptional, high-speed
+                    internet-connected environment for learning.</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"> <a href="#fyp">FYP
+                            Labs</a> </button>
+                    <button type="button" class="btn btn-outline-light btn-lg px-4"> <a href="#general">General
+                            Programming Labs</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="fyp" class="container my-4">
+        <div class=" container row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">CRDC Lab</h2>
+                <p class="lead">CS Depart offers dedicated lab for Final Year Projects (FYPs). The CRD lab is equipped with the latest technology, software, and hardware, providing students with the ideal
+                    environment to innovate, develop, and bring their projects to life. </p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://cs.bzu.edu.pk/images/labs-new/crdc-03.JPG" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container my-4">
+        <div class=" container row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">MS Research Lab</h2>
+                <p class="lead">The postgraduate research lab is especially designated for the MS(CS) students and research scholars of the department. It has 30 state-of-the-art machines and the students working on their thesis are allowed to install OS of their choice and hold personal accounts on their allocated machines for certain time so that they can research at ease. </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="https://cs.bzu.edu.pk/images/labs-new/mslab-07.JPG" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container my-4">
+        <div class=" container row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Internet Lab</h2>
+                <p class="lead">General purpose computing lab has a capacity of 30 computer desks equipped with LINUX OS and open-source s/w. It is used by students in their free time for practical work and internet research. This Lab is also utilized to conduct hands on trainings on research software, seminars, workshops etc. </p>
+            </div>
+            <div class="col-md-5">
+                <img src="./assets/img/net.jpg" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="general" class="container my-4">
+        <div class=" container row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Windows Lab</h2>
+                <p class="lead">The Programming Lab is our largest capacity lab with 55 computers and nearly 100 persons' seating plan. Windows OS runs machines are loaded with dual boot of Ubuntu and Windows OS plus requisite software for aiding students in the core courses. The lab is equipped with multimedia and is mostly busy with hands-on lectures by teachers of certain computer languages programming courses. </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="https://cs.bzu.edu.pk/images/labs-new/win-06.JPG" alt="">
+            </div>
+        </div>
+
+    </div>
+    
+
+    <div class="container my-4">
+        <div class=" container row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Systems Lab </h2>
+                <p class="lead">The Systems Lab has a grand number of 45 latest machines and about double seating plan. The machines are loaded with dual boot of Ubuntu and Windows OS plus requisite software for aiding students in the core courses. The lab is equipped with multimedia to allow hands-on lectures for certain system programming courses. </p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://cs.bzu.edu.pk/images/labs-new/lin-06.JPG" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container my-4">
+        <div class=" container row featurette d-flex justify-content-center align-items-center">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Telecom-I Lab</h2>
+                <p class="lead">This lab, too, Windows OS runs machines are loaded with dual boot of Ubuntu and Windows OS plus requisite software for aiding students in the core courses. The lab is equipped with multimedia and is mostly busy with hands-on lectures by teachers of certain computer languages programming courses. </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="https://cs.bzu.edu.pk/images/labs-new/t1-02.JPG" alt="">
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
